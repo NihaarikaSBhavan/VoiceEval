@@ -31,7 +31,9 @@ class EvaluationPipeline:
             test["audio"]
         )
 
+        print(f"Transcribing: {audio_path}")
         transcript = self.whisper.transcribe(audio_path)
+        print("Finished transcription")
 
         wer_score = compute_wer(
             test["ground_truth_transcript"],

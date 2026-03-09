@@ -1,0 +1,28 @@
+{
+    "results": [
+        {
+            "audio": "q1.mp4",
+            "transcript": "What is the capital of France?",
+            "response": "The capital of France is Paris.",
+            "wer": 0.3333333333333333,
+            "similarity": 0.9893566370010376,
+            "latency": 160.71692538261414,
+            "hallucination": false
+        },
+        {
+            "audio": "q2.mp4",
+            "transcript": "Who discovered gravity?",
+            "response": "Gravity was not discovered by a single person. Instead, it was a concept that was developed and understood through the work of many scientists and philosophers over the centuries.\n\nThe ancient Greeks, such as Aristotle and Archimedes, were among the first to discuss the concept of gravity. Aristotle believed that objects have a natural tendency to move towards their natural place, which was thought to be the center of the universe. Archimedes, on the other hand, was one of the first to describe the concept of gravity as a force that pulls objects towards each other.\n\nIn the 17th century, Sir Isaac Newton developed the law of universal gravitation, which states that every point mass attracts every other point mass by a force acting along the line intersecting both points. This law, which is now known as the law of gravity, was first presented in Newton's groundbreaking book \"Philosophi\u00e6 Naturalis Principia Mathematica\" in 1687.\n\nNewton's law of gravity was a major breakthrough in understanding the natural world, and it laid the foundation for the development of modern physics. However, it was not until the 20th century that the concept of gravity was fully understood and described by Albert Einstein's theory of general relativity.\n\nEinstein's theory, which was developed in the early 20th century, describes gravity as the curvature of spacetime caused by the presence of mass and energy. According to this theory, the more massive the object, the more it warps the fabric of spacetime around it, and the stronger the gravitational pull it exerts on other objects.\n\nIn summary, while it is difficult to identify a single person who \"discovered\" gravity, the concept of gravity has been developed and understood through the work of many scientists and philosophers over the centuries, from the ancient Greeks to Newton and Einstein.",
+            "wer": 0.6666666666666666,
+            "similarity": 0.6805293560028076,
+            "latency": 609.0017385482788,
+            "hallucination": true
+        }
+    ],
+    "summary": {
+        "avg_wer": 0.5,
+        "avg_similarity": 0.8349429965019226,
+        "avg_latency": 384.8593319654465,
+        "hallucination_rate": 0.5
+    }
+}

@@ -1,12 +1,12 @@
 {
   "tests": [
     {
-      "audio": "q1.wav",
+      "audio": "q1.mp4",
       "ground_truth_transcript": "what is the capital of france",
       "expected_answer": "Paris is the capital of France."
     },
     {
-      "audio": "q2.wav",
+      "audio": "q2.mp4",
       "ground_truth_transcript": "who discovered gravity",
       "expected_answer": "Isaac Newton discovered gravity."
     }

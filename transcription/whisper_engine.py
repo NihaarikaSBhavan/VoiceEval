@@ -1,14 +1,14 @@
-import whisper
-
+from faster_whisper import WhisperModel
 
 class WhisperEngine:
-
-    def __init__(self, model_name="base"):
-
-        self.model = whisper.load_model(model_name)
+    def __init__(self, model_size="base"):
+        self.model = WhisperModel(model_size)
 
     def transcribe(self, audio_path):
+        segments, info = self.model.transcribe(audio_path)
 
-        result = self.model.transcribe(audio_path)
+        text = ""
+        for segment in segments:
+            text += segment.text + " "
 
-        return result["text"].lower().strip()
+        return text.strip()
