@@ -1,0 +1,5 @@
+openai-whisper
+ollama
+jiwer
+sentence-transformers
+scikit-learn
